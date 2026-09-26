@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Not Zeno — Developer &amp; Creator</title>
+<meta name="description" content="Not Zeno — developer portfolio. Building thoughtful digital experiences, one project at a time.">
+
+<!-- Favicon -->
+<link rel="icon" href="data:,">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ NAVBAR ============ -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__brand" aria-label="Not Zeno — back to top">
+      <span class="nav__mark">NZ</span>
+      <span class="nav__name">Not&nbsp;Zeno</span>
+    </a>
+
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="https://github.com/" target="_blank" rel="noopener" class="nav__github">GitHub</a>
+    </nav>
+
+    <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="hero__field" aria-hidden="true">
+      <svg class="hero__lines" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+        <line x1="0" y1="120" x2="1200" y2="40" />
+        <line x1="0" y1="340" x2="1200" y2="260" />
+        <line x1="0" y1="560" x2="1200" y2="640" />
+        <line x1="0" y1="740" x2="1200" y2="780" />
+      </svg>
+      <div class="hero__glow"></div>
+    </div>
+
+    <div class="hero__content">
+      <p class="eyebrow" data-reveal>Developer / Creator</p>
+      <h1 class="hero__heading" data-reveal>Not Zeno.</h1>
+      <p class="hero__sub" data-reveal>
+        Building thoughtful digital experiences,<br class="br-desktop">
+        one project at a time.
+      </p>
+      <div class="hero__actions" data-reveal>
+        <a href="#projects" class="btn btn--primary">View Projects</a>
+        <a href="https://github.com/" target="_blank" rel="noopener" class="btn btn--ghost">GitHub</a>
+      </div>
+    </div>
+
+    <button class="scroll-cue" id="scrollCue" aria-label="Scroll to about section">
+      <span class="scroll-cue__line"></span>
+    </button>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="section__inner">
+      <p class="eyebrow" data-reveal>01 — About</p>
+      <h2 class="section__heading" data-reveal>
+        Building with curiosity.<br>
+        Learning with purpose.
+      </h2>
+
+      <div class="about__grid">
+        <p class="about__text" data-reveal>
+          I'm a developer who enjoys the entire arc of making something —
+          from the first rough idea, through the parts that don't work yet,
+          to the moment it finally clicks into place. I like the process of
+          coding as much as the result: reading through a new library,
+          rebuilding something I've made before in a cleaner way, or picking
+          apart a bug until it makes sense. Most of what I build starts as a
+          small experiment I was curious about, and I try to keep it that
+          way — practical, a little exploratory, and always a chance to
+          learn something I didn't know going in.
+        </p>
+
+        <dl class="about__facts" data-reveal>
+          <div class="about__fact">
+            <dt>Focus</dt>
+            <dd>Development</dd>
+          </div>
+          <div class="about__fact">
+            <dt>Currently learning</dt>
+            <dd>[Technology]</dd>
+          </div>
+          <div class="about__fact">
+            <dt>Location</dt>
+            <dd>[Location]</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section" id="skills">
+    <div class="section__inner">
+      <p class="eyebrow" data-reveal>02 — Toolkit</p>
+      <h2 class="section__heading" data-reveal>Tools I reach for.</h2>
+
+      <ul class="skills__grid" data-reveal>
+        <li class="skill">
+          <span class="skill__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M3 2h18l-1.6 18L12 22l-7.4-2L3 2Z"/><path d="M7 7h10l-.4 9-4.6 1.3L7.4 16l-.2-2.6"/></svg>
+          </span>
+          <span class="skill__name">HTML</span>
+        </li>
+        <li class="skill">
+          <span class="skill__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M4 2h16l-1.5 17L12 22l-6.5-3L4 2Z"/><path d="M17 7H7.5l.3 3.5H16l-.4 6-3.6 1.1-3.6-1.1-.2-2.6"/></svg>
+          </span>
+          <span class="skill__name">CSS</span>
+        </li>
+        <li class="skill">
+          <span class="skill__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18"/><path d="M8 15.5c.4.9 1 1.6 2.2 1.6 1.4 0 2-.7 2-1.6 0-2.3-4.6-1.2-4.6-4.1 0-1.3 1-2.2 2.7-2.2 1.2 0 2 .5 2.6 1.4M16.8 9c-.4-.6-1-1-1.9-1-1.1 0-1.8.6-1.8 1.5 0 2.2 4.4 1.1 4.4 4 0 1.4-1.1 2.4-2.9 2.4-1.4 0-2.3-.6-2.8-1.5"/></svg>
+          </span>
+          <span class="skill__name">JavaScript</span>
+        </li>
+        <li class="skill">
+          <span class="skill__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 3c-2.5 2.6-3.8 5.8-3.8 9s1.3 6.4 3.8 9c2.5-2.6 3.8-5.8 3.8-9S14.5 5.6 12 3Z"/><path d="M3.5 9h17M3.5 15h17"/></svg>
+          </span>
+          <span class="skill__name">Python</span>
+        </li>
+        <li class="skill">
+          <span class="skill__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="2.1"/><ellipse cx="12" cy="12" rx="10" ry="4"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(120 12 12)"/></svg>
+          </span>
+          <span class="skill__name">React</span>
+        </li>
+        <li class="skill">
+          <span class="skill__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><path d="M12 2v3.4M12 18.6V22M22 12h-3.4M5.4 12H2M18.4 5.6l-2.4 2.4M8 13.6l-2.4 2.4M18.4 18.4l-2.4-2.4M8 10.4 5.6 8"/></svg>
+          </span>
+          <span class="skill__name">Git</span>
+        </li>
+        <li class="skill">
+          <span class="skill__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.3-3.4-1.3-.5-1.1-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.7.4-1.1.6-1.4-2.3-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.2-.4-1.3.1-2.7 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.5.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.3 4.7-4.6 5 .4.3.7 1 .7 2v3c0 .3.2.6.7.5A10 10 0 0 0 12 2Z"/></svg>
+          </span>
+          <span class="skill__name">GitHub</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section" id="projects">
+    <div class="section__inner">
+      <p class="eyebrow" data-reveal>03 — Selected Work</p>
+      <h2 class="section__heading" data-reveal>A few things I've built.</h2>
+
+      <div class="projects__list" id="projectsList" data-reveal>
+        <!-- populated by script.js from PROJECTS data -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ JOURNEY ============ -->
+  <section class="section" id="journey">
+    <div class="section__inner">
+      <p class="eyebrow" data-reveal>04 — Journey</p>
+      <h2 class="section__heading" data-reveal>How I got here.</h2>
+
+      <ol class="timeline" data-reveal>
+        <li class="timeline__item">
+          <div class="timeline__year">2024</div>
+          <div class="timeline__text">Started building and learning the fundamentals of web development.</div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__year">2025</div>
+          <div class="timeline__text">Explored new technologies and started shipping small personal projects.</div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__year">2026</div>
+          <div class="timeline__text">Building better projects and refining how I design and write code.</div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ GITHUB ============ -->
+  <section class="section section--github">
+    <div class="section__inner section__inner--center">
+      <h2 class="section__heading" data-reveal>More of my work lives on GitHub.</h2>
+      <p class="section__lede" data-reveal>Repositories, experiments, and work in progress — updated as I go.</p>
+      <a href="https://github.com/" target="_blank" rel="noopener" class="btn btn--primary btn--lg" data-reveal>
+        Visit GitHub Profile
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section" id="contact">
+    <div class="section__inner">
+      <p class="eyebrow" data-reveal>05 — Contact</p>
+      <h2 class="section__heading" data-reveal>
+        Have an idea?<br>Let's build it.
+      </h2>
+
+      <div class="contact__links" data-reveal>
+        <a href="mailto:hello@notzeno.dev" class="contact__link">
+          <span class="contact__label">Email</span>
+          <span class="contact__value">hello@notzeno.dev</span>
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener" class="contact__link">
+          <span class="contact__label">GitHub</span>
+          <span class="contact__value">github.com/notzeno</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer__inner">
+    <span>Not Zeno</span>
+    <span>&copy; 2026</span>
+    <button id="toTop" class="footer__top">Back to top</button>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
